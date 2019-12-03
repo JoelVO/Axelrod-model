@@ -60,7 +60,7 @@ for k in range(10000): #number of iterations we want to simulate
                 K[i,j]=np.round(ent/len(suma),1) #the matrix K stores the rounded similarities between the person [i,j] and its negihbors
                     
                     
-        dct = {0: 0., 0.1:1, 0.2: 2., 0.3: 3., 0.4: 4.,0.5:5.,0.6:6.,0.7:7.,0.8:8.,0.9:9.,1:10} #selected colors fro the graph
+        dct = {0: 0., 0.1:1, 0.2: 2., 0.3: 3., 0.4: 4.,0.5:5.,0.6:6.,0.7:7.,0.8:8.,0.9:9.,1:10} #selected colors for the graph
         m = [[dct[i] for i in j] for j in K]
 
 

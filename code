@@ -1,7 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-def limites(matrix, row, col): #checks if a some vector has possible entries from a given matrix
+def boundary(matrix, row, col): #checks if a some vector has possible entries from a given matrix
     if row < 0 or col < 0:
         return False
     if row > len(matrix)-1 or col > len(matrix)-1:
